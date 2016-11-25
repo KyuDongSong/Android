@@ -212,7 +212,7 @@ public class HttpClient {
         private String generateParameters() {
             StringBuffer parameters = new StringBuffer();
 
-            Iterator<String> keys = getKeys();
+            Iterator&lt;String&gt; keys = getKeys();
 
             String key = "";
             while ( keys.hasNext() ) {

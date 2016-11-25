@@ -251,7 +251,7 @@ HttpClient.Builder http =
 
 // 파라미터를 전송한다.
 // 개별 파라미터 전송
-// http.addOrReplace("test", "한글한글...");
+// http.addOrReplaceParameter("test", "한글한글...");
 Map<String, String> result = new HashMap<String, String>();
 result.put("data1", "메모에요~");
 result.put("data2", "메모입니다~~~");

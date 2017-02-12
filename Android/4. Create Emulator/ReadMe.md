@@ -29,3 +29,18 @@ Next를 클릭해 다음으로 이동합니다.
 필요한 System Image가 준비되지 않았다면 Download 링크가 나타납니다. Download를 클릭해서 사용 준비를 해주세요.
 
 Next를 클릭해 다음으로 이동합니다.
+
+### Step 5. Android Virtual Device (AVD)
+<img src="./imgs/5. Android Virtual Device (AVD).png" />
+하드웨어를 설정합니다. 메모리의 용량이나 카메라의 유무 등을 선택하게 됩니다.
+
+`Show Advanced Settings`를 클릭하면, 카메라, CPU 등을 선택할 수 있습니다.
+
+Finish를 클릭해 AVD 설정을 완료합니다.
+
+### Step 6. Android Virtual Devices
+<img src="./imgs/6. Android Virtual Devices.png" />
+AVD를 만들고 나면 위 그림처럼 AVD 목록이 나타납니다. 지금 화면에서 우측의 녹색 세모 버튼을 누르면 에뮬레이터가 실행됩니다.
+
+<img src="./imgs/Android.png" />
+에뮬레이터가 실행되었습니다.

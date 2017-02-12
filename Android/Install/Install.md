@@ -1,2 +1,2 @@
 ### Install URL
-Download[https://developer.android.com/index.html]
+[Download](https://developer.android.com/index.html)

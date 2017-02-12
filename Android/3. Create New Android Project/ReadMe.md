@@ -18,3 +18,19 @@ Next 를 클릭해 다음으로 진행
 >> Android Play Store에 저장된 Version 통계를 보여주므로 이 정보를 참고해서 지정하세요.
 
 Next 를 클릭해 다음으로 진행
+
+### Step 4. Add an Activity to Mobile
+<img src="./imgs/3. Add an Activity to Mobile.png" />
+> Android Application 의 기본 Layout(화면구성)을 선택합니다.<br/>
+> Empty Activity 를 선택하세요.
+
+Next 를 클릭해 다음으로 진행
+
+### Step 5. Customize the Activity
+<img src="./imgs/4. Customize the Activity.png" />
+> Android 는 Activity와 Layout으로 하나의 화면이 구성됩니다.<br/>
+> Layout은 화면을 구성하고, Activity는 Layout을 `Handling(조작)`합니다.<br/>
+> Activity Name : 안드로이드에서 화면은 Activity 라는 이름으로 부릅니다. Android 가 처음 실행되었을 때 보여줄 화면의 이름을 작성합니다.<br/>
+> Layout Name : Activity Name이 작성되면, 자동으로 작성되니 따로 수정하지 말아주세요.<br/>
+
+Finish를 클릭해 프로젝트 생성 완료

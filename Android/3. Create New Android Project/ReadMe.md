@@ -10,3 +10,11 @@
 > Package Name : Company Name 과 Application Name이 결합된 이름이 작성됩니다. Company Name은 역순으로 작성됩니다. 이 Package Name 은 앞으로 Android Play Store 에서 Android Application을 대표 하는 값으로 사용됩니다.
 
 Next 를 클릭해 다음으로 진행
+
+### Step 3. Target Android Devices
+<img src="./imgs/2. Target Android Devices.png" />
+> Application Name : Phone and Tablet
+>> Minimum SDK : 지금 만드려는 Application 이 실행될 수 있는 최소 Android Version을 지정합니다.<br/>
+>> Android Play Store에 저장된 Version 통계를 보여주므로 이 정보를 참고해서 지정하세요.
+
+Next 를 클릭해 다음으로 진행

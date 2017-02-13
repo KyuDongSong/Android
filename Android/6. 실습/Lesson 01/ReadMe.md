@@ -1,6 +1,6 @@
 <pre>
-`<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
@@ -10,30 +10,30 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.minchangjang.myapplication.MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"&gt;
 
-    <ImageView
+    &lt;ImageView
         android:layout_marginTop="30dp"
         android:src="@drawable/youtube"
         android:layout_width="match_parent"
-        android:layout_height="150dp" />
+        android:layout_height="150dp" /&gt;
 
-    <TextView
+    &lt;TextView
         android:layout_marginTop="30dp"
         android:layout_gravity="center"
         android:textSize="30sp"
         android:text="Youtube"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView" />
+        android:id="@+id/textView" /&gt;
 
-    <Button
+    &lt;Button
         android:layout_marginTop="30dp"
         android:text="Go, Youtube!"
         android:textAllCaps="false"
         android:layout_gravity="center"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content" /&gt;
 
-</LinearLayout>`
+&lt;/LinearLayout&gt;
 </pre>

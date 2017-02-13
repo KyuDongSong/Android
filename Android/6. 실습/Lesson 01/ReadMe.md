@@ -40,7 +40,12 @@ LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 </pre>
 
 ### attribute
-Attribute Name|설명
+Attribute Name|설명|값
 ---|---
-android:layout_height|View의 높이를 설정합니다.
-android:layout_width|View의 너비를 설정합니다.
+android:layout_height|View의 높이를 설정합니다. (모든 View의 공통 속성)|wrap_content, match_parent
+android:layout_width|View의 너비를 설정합니다. (모든 View의 공통 속성)|wrap_content, match_parent
+android:layout_marginTop|View 상단의 여백을 설정합니다. (모든 View의 공통 속성)|숫자dp
+android:layout_marginBottom|View 하단의 여백을 설정합니다. (모든 View의 공통 속성)|숫자dp
+android:layout_marginLeft|View 좌단의 여백을 설정합니다. (모든 View의 공통 속성)|숫자dp
+android:layout_marginRight|View 우단의 여백을 설정합니다. (모든 View의 공통 속성)|숫자dp
+android:layout_gravity|View를 정렬합니다.|center_vertical, center_horizonal, center, left, right, top, bottom

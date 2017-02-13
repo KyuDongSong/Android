@@ -40,7 +40,7 @@ LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 </pre>
 
 ### attribute
-Attribute Name|설명|값
+Attribute Name|설명|값(width=150px)
 ---|---|---
 android:layout_height|View의 높이를 설정합니다.<br/>(모든 View의 공통 속성)|wrap_content, match_parent
 android:layout_width|View의 너비를 설정합니다.<br/>(모든 View의 공통 속성)|wrap_content, match_parent

@@ -1,7 +1,7 @@
 ### activity_main.xml
 <pre>
 &lt;?xml version="1.0" encoding="utf-8"?&gt;
-LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+&lt;LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"

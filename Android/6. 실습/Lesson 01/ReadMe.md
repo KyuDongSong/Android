@@ -49,6 +49,7 @@ android:layout_marginBottom|View 하단의 여백을 설정합니다.<br/>(모�
 android:layout_marginLeft|View 좌단의 여백을 설정합니다.<br/>(모든 View의 공통 속성)|숫자dp
 android:layout_marginRight|View 우단의 여백을 설정합니다.<br/>(모든 View의 공통 속성)|숫자dp
 android:layout_gravity|View를 정렬합니다.|center_vertical, center_horizonal<br/>center, left, right, top, bottom
+android:gravity|Child View를 정렬합니다.|center_vertical, center_horizonal<br/>center, left, right, top, bottom
 android:background|배경색을 지정합니다.<br/>(모든 View의 공통 속성)|16진수 RGB값
 android:text|텍스트를 지정합니다.|값
 android:textSize|텍스트의 크기를 지정합니다.|숫자sp

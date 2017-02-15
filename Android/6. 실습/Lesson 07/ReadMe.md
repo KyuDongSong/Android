@@ -65,3 +65,178 @@ public class MockData {
     }
 }
 </pre>
+
+### activity_main.xml 에 아래 내용을 채워 넣으세요.
+<pre>
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.minchangjang.lesson07dictionary.MainActivity"&gt;
+
+    &lt;ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"&gt;
+        &lt;LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"&gt;
+
+            &lt;TextView
+                android:padding="10dp"
+                android:onClick="viewWord"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="deserve" /&gt;
+
+            &lt;View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#333"/&gt;
+
+            &lt;TextView
+                android:padding="10dp"
+                android:onClick="viewWord"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="survive" /&gt;
+
+            &lt;View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#333"/&gt;
+
+            &lt;TextView
+                android:padding="10dp"
+                android:onClick="viewWord"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="survival" /&gt;
+
+            &lt;View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#333"/&gt;
+
+            &lt;TextView
+                android:padding="10dp"
+                android:onClick="viewWord"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="create" /&gt;
+
+            &lt;View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#333"/&gt;
+
+            &lt;TextView
+                android:padding="10dp"
+                android:onClick="viewWord"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="creation" /&gt;
+
+            &lt;View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#333"/&gt;
+
+            &lt;TextView
+                android:padding="10dp"
+                android:onClick="viewWord"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="describe" /&gt;
+
+            &lt;View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#333"/&gt;
+
+            &lt;TextView
+                android:padding="10dp"
+                android:onClick="viewWord"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="blame" /&gt;
+
+            &lt;View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#333"/&gt;
+
+            &lt;TextView
+                android:padding="10dp"
+                android:onClick="viewWord"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="compare" /&gt;
+
+            &lt;View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#333"/&gt;
+
+            &lt;TextView
+                android:padding="10dp"
+                android:onClick="viewWord"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="examine" /&gt;
+
+            &lt;View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#333"/&gt;
+
+            &lt;TextView
+                android:padding="10dp"
+                android:onClick="viewWord"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="examination" /&gt;
+
+            &lt;View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#333"/&gt;
+
+            &lt;TextView
+                android:padding="10dp"
+                android:onClick="viewWord"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="select" /&gt;
+
+            &lt;View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#333"/&gt;
+
+            &lt;TextView
+                android:padding="10dp"
+                android:onClick="viewWord"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="selection" /&gt;
+
+        &lt;/LinearLayout&gt;
+    &lt;/ScrollView&gt;
+&lt;/LinearLayout&gt;
+</pre>

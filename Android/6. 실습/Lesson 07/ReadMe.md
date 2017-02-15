@@ -5,10 +5,10 @@ import java.util.Map;
 
 public class MockData {
 
-    private Map<String, Words> dict;
+    private Map&lt;String, Words&gt; dict;
 
     public MockData() {
-        dict = new HashMap<String, Words>();
+        dict = new HashMap&lt;String, Words&gt;();
         dict.put("deserve", new Words("deserve", "받을 가치가 있다", "동사"));
         dict.put("survive", new Words("survive", "살아남다", "동사"));
         dict.put("survival", new Words("survival", "살아남음, 생존", "명사"));
@@ -17,7 +17,7 @@ public class MockData {
         dict.put("describe", new Words("describe", "묘사하다", "동사"));
         dict.put("blame", new Words("blame", "비난하다, 책망하다", "동사"));
         dict.put("compare", new Words("compare", "비교하다, 비유하다, 비교되다", "동사"));
-        dict.put("examine", new Words("examin", "시험하다, 검사하다, 진찰하다", "동사"));
+        dict.put("examine", new Words("examine", "시험하다, 검사하다, 진찰하다", "동사"));
         dict.put("examination", new Words("examination", "시험, 조사, 검사", "명사"));
         dict.put("select", new Words("select", "고르다", "동사"));
         dict.put("selection", new Words("selection", "선발, 선택", "명사"));

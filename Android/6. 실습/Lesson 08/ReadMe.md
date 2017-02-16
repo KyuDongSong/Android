@@ -31,11 +31,11 @@ public class MockData {
 
     public List&lt;Words&gt; getAllWords() {
 
-        String[] keys = (String[]) dict.keySet().toArray();
+        Object[] keys = dict.keySet().toArray();
 
         List&lt;Words&gt; words = new ArrayList&lt;Words&gt;();
-        for ( String key : keys ) {
-            words.add(dict.get(key));
+        for ( Object key : keys ) {
+            words.add(dict.get(key.toString()));
         }
 
         return words;

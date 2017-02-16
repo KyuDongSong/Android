@@ -29,20 +29,14 @@ public class MockData {
         return dict.get(englishWord);
     }
 
-    public List&lt;String&gt; getAllWords() {
-        List&lt;String&gt; words = new ArrayList&lt;String&gt;();
-        words.add("deserve");
-        words.add("survive");
-        words.add("survival");
-        words.add("create");
-        words.add("creation");
-        words.add("describe");
-        words.add("blame");
-        words.add("compare");
-        words.add("examine");
-        words.add("examination");
-        words.add("select");
-        words.add("selection");
+    public List&lt;Words&gt; getAllWords() {
+
+        String[] keys = (String[]) dict.keySet().toArray();
+
+        List&lt;Words&gt; words = new ArrayList&lt;Words&gt;();
+        for ( String key : keys ) {
+            words.add(dict.get(key));
+        }
 
         return words;
     }

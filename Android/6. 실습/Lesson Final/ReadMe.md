@@ -1,8 +1,8 @@
 ### Beacon info
 <pre>
-UUID : 20CAE8A0-A9CF-11E3-A5E2-0800200C9A66
-Major : 87
-Minor : 60872
+UUID : 74278BDA-B644-4520-8F0C-720EAF059935
+Major : 0
+Minor : 0
 </pre>
 
 ### build.gradle (Module:App)
@@ -43,7 +43,7 @@ public void onCreate() {
         @Override
         public void onEnteredRegion(Region region, List&lt;Beacon&gt; list) {
             //TODO 액티비티를 띄우는 처리
-            
+
         }
 
         @Override

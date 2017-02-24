@@ -83,7 +83,7 @@ public class MockData {
     private Map&lt;String, Words&gt; dict;
 
     private MockData() {
-        dict = new HashMap&lt;String, Words&lt;();
+        dict = new HashMap&lt;String, Words&gt;();
         dict.put("deserve", new Words("deserve", "받을 가치가 있다", "동사", 3));
         dict.put("survive", new Words("survive", "살아남다", "동사", 4));
         dict.put("survival", new Words("survival", "살아남음, 생존", "명사", 4));

@@ -1,7 +1,7 @@
 ### Beacon info
 <pre>
 UUID : 20CAE8A0-A9CF-11E3-A5E2-0800200C9A66
-Major : 82
+Major : 87
 Minor : 60872
 </pre>
 
@@ -15,7 +15,7 @@ repositories {
 dependencies {
   ...
   // 추가 할 부분
-  compile 'com.estimote:sdk:0.10.4@aar'
+  compile 'com.estimote:sdk:0.12.0@aar'
 }
 </pre>
 
@@ -23,5 +23,33 @@ dependencies {
 > Applicaiton은 Android Applicaition의 공통 모듈이라고 생각하면 됩니다.
 
 <pre>
+private BeaconManager beaconManager;
 
+@Override
+public void onCreate() {
+    super.onCreate();
+    beaconManager = new BeaconManager(getApplicationContext());
+
+    beaconManager.connect(new BeaconManager.ServiceReadyCallback() {
+        @Override
+        public void onServiceReady() {
+            beaconManager.startMonitoring(
+                    new Region("monitored region",
+                            UUID.fromString("74278BDA-B644-4520-8F0C-720EAF059935"), 0, 0));
+        }
+    });
+
+    beaconManager.setMonitoringListener(new BeaconManager.MonitoringListener() {
+        @Override
+        public void onEnteredRegion(Region region, List&lt;Beacon&gt; list) {
+            //TODO 액티비티를 띄우는 처리
+            
+        }
+
+        @Override
+        public void onExitedRegion(Region region) {
+
+        }
+    });
+}
 </pre>

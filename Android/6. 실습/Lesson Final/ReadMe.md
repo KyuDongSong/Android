@@ -9,12 +9,14 @@ Minor : 0
 <pre>
 // 추가 할 부분
 repositories {
+  mavenCentral()
   jcenter()
 }
 
 dependencies {
   ...
   // 추가 할 부분
+  compile 'com.facebook.android:facebook-android-sdk:4.+'
   compile 'com.estimote:sdk:0.12.0@aar'
 }
 </pre>
@@ -53,6 +55,8 @@ public void onCreate() {
     });
 }
 </pre>
+
+
 
 ### MainActivity.java
 <pre>
